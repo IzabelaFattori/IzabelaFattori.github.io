@@ -39,7 +39,7 @@ body {
     padding-bottom: 3%;
 }
 .img{
-    margin-left: 15rem;
+    margin-left: 10rem;
     border-radius: 30%;
 }
 .texto{
@@ -55,7 +55,7 @@ body {
 .sobre-container{
     display: flex;
     justify-content:left ;
-    padding-top: 5%;
+    padding-top: 8%;
     padding-left: 5%;
     padding-bottom: 5%;
 }
@@ -66,8 +66,40 @@ body {
 
 }
 .texto3{
-    padding-top: 7%;
     margin-left: 0.1rem;
+    font-size:xx-large;
+}
+.texto4{
+    font-size: large;
+    padding-right: 5%;
 }
 
 /*Skills*/
+
+.skills-title{
+    padding-top: 3%;
+    justify-content: center;
+    margin-left: 37rem;
+    font-size: xx-large;
+}
+
+.skills-container{
+    display: flex;
+    justify-content: center;
+    padding-top: 1%;
+    padding-bottom: 5%;
+    padding-right: 5%;
+    padding-left: 5%;
+
+}
+
+.skills{
+    justify-content: center;
+    padding-left:1%;
+    padding-right: 10%;
+}
+
+.habilidades-titulo{
+    padding-left: 15%;
+    padding-bottom: 5%;
+}
