@@ -29,3 +29,22 @@ body {
 .navlink{
     font-size:large;
 }
+
+/*Home*/
+
+.home-container{
+    display: flex;
+    justify-content:center;
+    padding-top: 3%;
+}
+.img{
+    margin-left: 15rem;
+    border-radius: 30%;
+}
+.texto{
+    padding-top: 7%;
+    font-size: 3.5rem;
+}
+.texto2{
+    font-size: 1.75rem;
+}
