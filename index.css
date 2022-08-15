@@ -3,68 +3,75 @@ body {
     background-color:#D9D2B6;
 }
 
-/* Navbar */
 
-
-.nav-list{
-    background-color: #71697A;
-    box-shadow: 0px 0px 10px;
-    margin: 0;
-    padding: 1rem 0;
-    display: flex;
-    justify-content: right;
-    align-items: center;
-}
-
-.nav-item{
-    list-style: none;
-    margin-right: 2rem;
-}
-
-.nav-item a {
-    text-decoration: none;
-    color: white;
-}
-
-.nav-item:first-child{
-    margin-right: auto;
-    margin-left: 2rem;
-}
-
-.brand{
-    font-size: 1.5rem;
-}
+@media screen and (max-width: 375px) {
+    body{
+        margin: 0;
+    }
+    .nav-list{
+        background-color: #71697A;
+        box-shadow: 0px 0px 10px;
+        margin: 0;
+        padding: 1rem 0;
+        display: flex;
+        justify-content: right;
+        align-items: center;
+    }
+    
+    .nav-item{
+        list-style: none;
+        margin-right: 1rem;
+    }
+    
+    .nav-item a {
+        text-decoration: none;
+        color: white;
+    }
+    
+    .nav-item:first-child{
+        margin-right: auto;
+        margin-left: 1rem;
+    }
+    
+    .brand{
+        font-size: 1rem;
+    }
 /*Home*/
 
 .home-container{
     display: flex;
+    flex-direction: column;
     justify-content:center;
-    padding-top: 3%;
+    padding-top: 1%;
     padding-bottom: 3%;
 }
 .img{
-    margin-left: 10rem;
+    width: 300px;
+    margin-left: 2.5rem;
     border-radius: 30%;
+    padding-bottom: 5%;
 }
 .texto{
-    padding-top: 7%;
-    font-size: 3.5rem;
+    margin-left:1.5rem ;
+    font-size: 2.5rem;
 }
 .texto2{
-    font-size: 1.75rem;
+    margin-left: 1rem;
+    font-size: 1.20rem;
+    padding-bottom: 5%;
 }
-
 /*Sobre*/
 
 .sobre-container{
     display: flex;
+    flex-direction: column;
     justify-content:left ;
     padding-top: 8%;
     padding-left: 5%;
     padding-bottom: 5%;
 }
 .img2{
-    width: 500px;
+    width: 300px;
     margin-right: 5rem;
     border-radius: 30%;
 
@@ -78,80 +85,4 @@ body {
     padding-right: 10%;
 }
 
-/*Skills*/
-
-.titulo{
-    padding-top: 3%;
-    justify-content: center;
-    margin-left: 37rem;
-    font-size: xx-large;
-}
-
-.skills-container{
-    display: flex;
-    justify-content: center;
-    padding-top: 1%;
-    padding-bottom: 5%;
-    padding-right: 5%;
-    padding-left: 5%;
-
-}
-
-.skills{
-    justify-content: center;
-    padding-left:1%;
-    padding-right: 10%;
-}
-
-.habilidades-titulo{
-    padding-left: 15%;
-    padding-bottom: 5%;
-}
-
-/*Curiosidades*/
-
-
-.Curiosidade{
-    display: flex;
-    justify-content:center;
-    padding-bottom: 5%;
-}
-.curiosidade-titulo{
-    font-size: x-large;
-    margin-left: 30rem;
-    padding-bottom: 2%;
-}
-.frases{
-    padding-left: 10%;
-    padding-right: 10%;
-    font-size:large;
-}
-.img3{
-    width: 250px;
-    margin-right: 10rem;
-    padding-bottom: 5%;
-}
-
-/*site Rachachuca*/
-
-.titulo2{
-    justify-content: center;
-    margin-left: 25rem;
-    font-size: xx-large;
-}
-.siterc{
-    padding-top: 3%;
-    padding-bottom: 5%;
-}
-.aqui{
-    text-decoration: none;
-    color:blue;
-}
-.aqui:hover{
-    color: red;
-}
-.site{
-    padding-left:5%;
-    padding-right: 10%;
-    font-size: large;
-}
+  }
