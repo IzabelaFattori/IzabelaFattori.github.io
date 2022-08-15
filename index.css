@@ -79,6 +79,27 @@
     color: yellow;
 }
 
+/*Curiosidade*/
+
+.curios h1{
+    text-align: center;
+    padding-bottom: 3rem;
+    padding-top: 5rem;    
+}
+.img3{
+    padding-top: 5rem;
+    width: 400px;
+    padding-left: 2rem;
+    padding-bottom: 5rem;
+}
+.frases{
+    padding-left: 6rem;
+}
+
+/*site*/
+
+
+
 @media screen and (max-width: 420px) {
     /*media home*/
     .homepass img{
@@ -115,4 +136,25 @@
         padding-top: 0;
         margin-left: 2rem;
     }
+    /*Curiosidade*/
+    .curiosidade{
+        text-align: center;
+        padding-right: 0;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        padding-left: 0;
+    }
+    .img3{
+        width: 300px;
+        padding-top: 1rem;
+        padding-bottom: 2rem;
+        padding-left: 0.8rem;
+    }
+    .frases{
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+    /*Site*/
+    
+
   }
