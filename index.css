@@ -98,7 +98,31 @@
 
 /*site*/
 
-
+.site{
+    text-align: center;
+    padding-bottom: 8rem;
+}
+.site-titulo{
+    padding-bottom: 3rem;
+}
+.site-texto{
+    font-size: 19px;
+    padding-left: 15rem;
+    padding-right: 15rem;
+}
+.aqui{
+    text-decoration: none;
+}
+.aqui:hover{
+    color: red;
+}
+.footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
 
 @media screen and (max-width: 420px) {
     /*media home*/
@@ -155,6 +179,22 @@
         padding-right: 2rem;
     }
     /*Site*/
-
-
+    
+    .site-titulo{
+        padding-left: 2rem;
+        padding-right: 2rem;
+        padding-bottom: 2rem;
+    }
+    .site-texto{
+        font-size: 15px;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+    .site{
+        padding-bottom: 3rem;
+    }
+    /*footer*/
+    .footer h3{
+        font-size: 18px;
+    }
   }
