@@ -32,6 +32,10 @@ body {
     font-size:large;
 }
 
+.navlist:first-child{
+    margin-right: auto;
+}
+
 /*Home*/
 
 .home-container{
