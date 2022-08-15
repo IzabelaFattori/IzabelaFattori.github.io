@@ -72,7 +72,7 @@ body {
 }
 .img2{
     width: 300px;
-    margin-right: 5rem;
+    margin-left: 1rem;
     border-radius: 30%;
 
 }
@@ -84,5 +84,89 @@ body {
     font-size: large;
     padding-right: 10%;
 }
+/*Skills*/
 
+.titulo{
+    padding-top: 3%;
+    justify-content: center;
+    margin-left: 6.5rem;
+    font-size: xx-large;
+}
+
+.skills-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 1%;
+    padding-bottom: 5%;
+    padding-right: 5%;
+    padding-left: 5%;
+
+}
+
+.skills{
+    justify-content: center;
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.habilidades-titulo{
+    padding-left: 30%;
+    padding-bottom: 3%;
+}
+/*Curiosidades*/
+
+
+.Curiosidade{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    padding-bottom: 5%;
+}
+.titulo1{
+    font-size: xx-large;
+    margin-left: 7rem;
+    padding-bottom: 2%;
+}
+.titulo{
+    font-size:xx-large;
+    margin-left: 5rem;
+    padding-bottom: 2%;
+}
+.frases{
+    padding-left: 10%;
+    padding-right: 10%;
+    font-size:large;
+}
+.img3{
+    width: 250px;
+    margin-left: 4rem;
+    padding-bottom: 5%;
+}
+/*site Rachachuca*/
+
+.titulo2{
+    text-align: center;
+    justify-content: center;
+    margin-left: 1rem;
+    font-size: 2.5rem;
+}
+.siterc{
+    padding-top: 1%;
+    padding-bottom: 5%;
+}
+.aqui{
+    text-decoration: none;
+    color:blue;
+}
+.aqui:hover{
+    color: red;
+}
+.site{
+    text-align: center;
+    padding-left:5%;
+    padding-right: 10%;
+    font-size: large;
+}
   }
