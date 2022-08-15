@@ -1,0 +1,33 @@
+.homepass img{
+   border-radius: 35%;
+   margin-top: 3rem;
+}
+
+.homepass{
+    text-align: center;
+    margin-right: 7rem;
+}
+
+.desc{
+    text-align: left;
+    margin-top: 10rem;
+    padding-left: 8rem;
+}
+
+
+
+
+@media screen and (max-width: 420px) {
+    .homepass img{
+        width: 300px;
+        margin-top: 3rem;
+    } 
+    .homepass{
+        margin-right: 0;
+    }
+    .desc{
+        margin-top: 3rem;
+        padding-left: 2rem;
+        text-align: center;
+    }
+  }
