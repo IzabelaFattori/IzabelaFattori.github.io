@@ -4,8 +4,10 @@ body {
 
 /* Navbar */
 
+
+
 .navbar{
-    background-color:antiquewhite;
+    background-color:#71697A;
     margin: 0;
     padding-top: 1%;
     padding-bottom: 1%;
@@ -21,7 +23,7 @@ body {
 }
 .navlist a {
     text-decoration: none;
-    color: black;
+    color: white;
 }
 .navlist a:hover{
     color: purple;
@@ -113,16 +115,41 @@ body {
     padding-bottom: 5%;
 }
 .curiosidade-titulo{
-    font-size: large;
+    font-size: x-large;
     margin-left: 30rem;
     padding-bottom: 2%;
 }
 .frases{
     padding-left: 10%;
     padding-right: 10%;
+    font-size:large;
 }
 .img3{
     width: 250px;
-    margin-right: 7rem;
+    margin-right: 10rem;
     padding-bottom: 5%;
+}
+
+/*site Rachachuca*/
+
+.titulo2{
+    justify-content: center;
+    margin-left: 25rem;
+    font-size: xx-large;
+}
+.siterc{
+    padding-top: 3%;
+    padding-bottom: 5%;
+}
+.aqui{
+    text-decoration: none;
+    color:blue;
+}
+.aqui:hover{
+    color: red;
+}
+.site{
+    padding-left:5%;
+    padding-right: 10%;
+    font-size: large;
 }
