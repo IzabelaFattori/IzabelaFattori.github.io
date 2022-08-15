@@ -129,12 +129,12 @@
     }
     /*Skills*/
     .card{
-        margin-left: 3rem;
+        margin-left: 2rem;
         margin-top: 2rem;
     }
     .skills h1{
         padding-top: 0;
-        margin-left: 2rem;
+        margin-left: 0.5rem;
     }
     /*Curiosidade*/
     .curiosidade{
@@ -155,6 +155,6 @@
         padding-right: 2rem;
     }
     /*Site*/
-    
+
 
   }
