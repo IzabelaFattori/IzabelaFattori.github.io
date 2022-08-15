@@ -6,36 +6,34 @@ body {
 /* Navbar */
 
 
-.navbar{
-    background-color:#71697A;
+.nav-list{
+    background-color: #71697A;
+    box-shadow: 0px 0px 10px;
     margin: 0;
-    padding-top: 1%;
-    padding-bottom: 1%;
-}
-.navlist {
-    display:flex;
+    padding: 1rem 0;
+    display: flex;
     justify-content: right;
-    margin-right: 4rem;
+    align-items: center;
 }
-.navlist li {
+
+.nav-item{
     list-style: none;
-    margin-right: 1rem;
+    margin-right: 2rem;
 }
-.navlist a {
+
+.nav-item a {
     text-decoration: none;
     color: white;
 }
-.navlist a:hover{
-    color: purple;
-}
-.navlink{
-    font-size:large;
-}
 
-.navlist:first-child{
+.nav-item:first-child{
     margin-right: auto;
+    margin-left: 2rem;
 }
 
+.brand{
+    font-size: 1.5rem;
+}
 /*Home*/
 
 .home-container{
