@@ -124,6 +124,17 @@
     padding-bottom: 1rem;
 }
 
+@media screen and (max-width: 1300px) {
+    .card{
+        margin-right: 10rem;
+        margin-top: 3rem;
+    }
+
+    .cards{
+        margin-left: 15rem;
+    }
+}
+
 @media screen and (max-width: 850px) {
     /*Media Home*/
     .homepass{
