@@ -124,6 +124,59 @@
     padding-bottom: 1rem;
 }
 
+@media screen and (max-width: 850px) {
+    /*Media Home*/
+    .homepass{
+        display: flex;
+        flex-direction:row;
+    }
+
+    .homepass img{
+        width: 350px;
+        margin-left: 8rem;
+    }
+
+    .desc{
+        text-align: center;
+        margin-top: 2rem;
+    }
+
+    .texto{
+        font-size: 40px;
+        padding-bottom: 1rem;
+    }
+
+
+    /*Sobre*/
+    .texto3{
+        margin-left: 3rem;
+    }
+    .texto4{
+        margin-left: 3rem;
+    }
+    /*Skills*/
+    .card{
+        margin-top: 3rem;
+    }
+    /*Curiosidades*/
+    .frases{
+        margin-left: 0;
+        margin-right: 5rem;
+    }
+
+    .img3{
+        margin-left: 10rem;
+        padding-top: 1rem;
+    }
+    /*Site*/
+    .site-texto {
+        padding-left: 5rem;
+        padding-right: 5rem;
+    }
+    /*Footer*/
+
+}
+
 @media screen and (max-width: 420px) {
     /*media home*/
     .homepass img{
